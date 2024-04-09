@@ -11,3 +11,10 @@ To use the navigation components in your project, you'll need to add the followi
 ```groovy
 implementation 'androidx.navigation:navigation-fragment:$nav_version'
 implementation 'androidx.navigation:navigation-ui:$nav_version'
+
+### Kotlin
+
+```groovy
+implementation("androidx.navigation:navigation-fragment$nav_version")
+implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
